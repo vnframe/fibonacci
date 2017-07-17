@@ -12,5 +12,5 @@ end
 	return y #returns last number
 	
 end
-p (0..30).map {|n| fibonacci(n)} # sets n and calls in fibonnaci method
+p (0..30).collect {|n| fibonacci(n)} # sets n and calls in fibonnaci method
 				 # 30 is the lowest n can be set to for y < 4million
