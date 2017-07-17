@@ -13,4 +13,5 @@ end
 	
 end
 p (0..30).collect {|n| fibonacci(n)} # sets n and calls in fibonnaci method
+				     # .collect applies method to all items and returns	
 				 # 30 is the lowest n can be set to for y =< 4million
